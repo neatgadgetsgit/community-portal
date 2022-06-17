@@ -1,0 +1,87 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App {
+	display: flex;
+	display: inline;
+}
+a {
+  text-decoration: none;
+  color: #00FFFF;
+}
+a:visited {
+	color: #FF00FF;
+}
+a:hover {
+	color: #AAFFFF;
+}
+a:focus {
+	color: #AAFFFF;
+}
+a:active {
+	color: #00FFFF;
+}
+.navigation {
+  color: #d3d3d3;
+  background-color: #000000;
+  width: 100%;
+}
+.header {
+	flex: 0 0 100%;
+	font-variant: small-caps;
+	background-image: url("./header_background.jpg");
+	background-repeat: no-repeat;
+}
+.flex_container {
+	display: flex;
+}
+.main_section {
+	flex: 1;
+	flex-direction: column;
+}
+.photo_gallery {
+	color: #d3d3d3;
+	background-color: #000000;  
+	display: flex;
+	flex-wrap: wrap; 
+}
+.weather_dashboard {
+	display: flex;
+	flex-wrap: wrap; 
+}
+.community_blog {
+	color: #000000;
+	background-color: #d3d3d3;  
+}
+.aside_section {
+	color: #d3d3d3;
+	background-color: #000000;
+	flex-direction: column;
+}
+.footer {
+  clear: both;
+  color: #d3d3d3;
+  background-color: #000000;
+  width: 100%;
+}
+table {
+	border: 1px solid #000000;
+	width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_section {
+    display: inline;
+  }
+}
